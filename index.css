@@ -52,3 +52,24 @@ body{
 .fotodejaguay p b{
   font-size: 2rem;
 }
+.card-group{
+  width: 100%;
+  margin: auto; 
+  gap:20px;
+}
+#color{
+  color: chartreuse;
+}
+.container1{
+  display: flex;
+  justify-content:center ; 
+  
+ }
+ #borrar{
+  background-color:rgb(164, 221, 7) ;
+  color: aliceblue;
+  text-align: center;
+}
+.card{    
+  margin:2px;
+}
