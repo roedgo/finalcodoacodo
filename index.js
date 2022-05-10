@@ -17,6 +17,12 @@ if (boletos >= 1) {
                        break;
                       }                    
 } else {
+
+
          alert("NO INGRESO CANTIDAD DE BOLETOS, NO SE TOMARAN SOLICITUDES SIN ESTE DATO." );
         }
 };
+function vaciar(){
+var limpiar="Total a Pagar: $ "
+document.getElementById('apagar').innerHTML = limpiar ;
+}
