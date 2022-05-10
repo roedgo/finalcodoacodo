@@ -24,5 +24,6 @@ if (boletos >= 1) {
 };
 function vaciar(){
 var limpiar="Total a Pagar: $ "
+
 document.getElementById('apagar').innerHTML = limpiar ;
-}
+};
