@@ -16,11 +16,16 @@ if (boletos >= 1) {
                             document.getElementById('apagar').innerHTML = "Total a Pagar: $ " +verFueraDeLaFuncion ;
                        break;
                       }                    
-} else {
+ } else {
 
 
-         alert("NO INGRESO CANTIDAD DE BOLETOS, NO SE TOMARAN SOLICITUDES SIN ESTE DATO." );
-        }
+         swal({
+          title: "Atención",
+          text: "No ingresó cantidad de tickets, no se tomarán solicitudes sin este dato. Gracias!",
+          icon: "warning",
+          button: "Ok",
+          });
+  }
 };
 function vaciar(){
 var limpiar="Total a Pagar: $ "
