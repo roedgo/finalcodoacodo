@@ -24,13 +24,13 @@ if (boletos >= 1) {
           icon: "info",
           button: "Ok",
           });
-          document.getElementById('cantidad').focus();
+//          document.getElementById('cantidad').focus();
   }
 };
 function vaciar(){
 var limpiar="Total a Pagar: $ "
 document.getElementById('apagar').innerHTML = limpiar ;
-document.getElementById('sitiar').focus();
+//document.getElementById('sitiar').focus();
 };
 
 function seleccionar() {
