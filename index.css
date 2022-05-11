@@ -1,4 +1,3 @@
-
 body{
     width: 100%;
     margin: auto;
@@ -29,7 +28,6 @@ body{
   width: 100%;
   height: 100%;
   filter: brightness(40%);
-
 }
 .fotodejaguay p{
   font-size: 1rem;
@@ -39,7 +37,6 @@ body{
   left: 60%;
   transform: translate(-20%, -50%);
   text-align: right;
-  
 }
 .final{
   background-color: #022138;
@@ -63,7 +60,6 @@ body{
 .container1{
   display: flex;
   justify-content:center ; 
-  
  }
  #borrar{
   background-color:rgb(164, 221, 7) ;
@@ -74,7 +70,6 @@ body{
   margin:2px;
 }
 .swal-modal {
-  background-color:"";
-  border: 3px solid red;
+  border: 3px solid rgb(32, 226, 26);
   border-radius: 20px;
-  }
+}
