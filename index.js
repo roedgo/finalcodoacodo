@@ -42,3 +42,9 @@ function seleccionar() {
     
     });
 }
+function cambio() {
+  
+//  var limpiar="Total a Pagar: $ "
+//document.getElementById('apagar').innerHTML = limpiar ;
+//  alert("cambio de categoria")
+}
